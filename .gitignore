@@ -97,3 +97,26 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Ignore large downloaded 3D assets
+*.zip
+*.rar
+*.7z
+*.fbx
+*.obj
+*.blend
+*.png
+*.jpg
+*.mp4
+*.wav
+*.ogg
+
+# Ignore Vuforia packages (very large)
+[Pp]ackages/com.ptc.vuforia.engine*.tgz
+
+# Ignore native build files
+*.dll
+*.so
+*.dylib
+*.aar
+
